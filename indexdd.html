@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <!--
+          - #SIDEBAR
+        -->
+    
+        <aside class="sidebar" data-sidebar>
+    
+          <div class="sidebar-info">
+    
+            <figure class="my-photo-box">
+              <img src="./assets/images/my-photo.png" alt="Seo hyegyeong" width="80" style="border-radius: 40px;">
+            </figure>
+    
+            <div class="info-content">
+              <h1 class="name" title="서혜경">서혜경</h1>
+              <p class="title" style="font-weight: bold; font-size: 15px;">웹 개발 교육 과정 참여</p>
+              <p class="title" style="font-weight: bold; font-size: 15px;">프로젝트에서 안드로이드 앱 개발중</p>
+            </div>
+    
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>연락처 보기</span>
+    
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
+    
+          </div>
+    
+          <div class="sidebar-info_more">
+    
+            <div class="separator"></div>
+    
+            <ul class="contacts-list">
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+    
+                  <a href="mailto:hyegyeongseo111@gmail.com" class="contact-link">hyegyeongseo111@gmail.com</a>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+    
+                  <a href="tel:010-2874-7277" class="contact-link">010-2874-7277</a>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+    
+                  <time datetime="1998-11-16">November 16, 1998</time>
+                </div>
+    
+              </li>
+    
+              <li class="contact-item">
+    
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+    
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+    
+                  <address>경기도 고양시 화정동</address>
+                </div>
+    
+              </li>
+    
+            </ul>
+    
+        </aside>
+    
+    
+    
+    
+    
+        <!--
+          - #main-content
+        -->
+    
+        <div class="main-content">
+    
+          <!--
+            - #NAVBAR
+          -->
+    
+          <!--
+            - #ABOUT
+          -->
+    
+          <article class="about  active" data-page="about">
+    
+            <header>
+              <h2 class="h2 article-title">About me</h2>
+            </header>
+    
+            <section class="about-text">
+              <p>
+                클라우드 기반 MSA SW 고급 개발자 양성 과정을 통해, 아래와 같은 배움의 기회를 얻었습니다. + 3개의 프로젝트 참여.
+              </p>
+              <p><a style="color: #fff200; display: inline;">"HTML,CSS,JS"</a>로 프론트 관련 기초 학습</p>
+              <p><span style="color: #fff200;display: inline;">"Java"</span>를 학습하고 <span style="color: #fff200;display: inline;">Spring Boot</span> 수업 과정에서 <span style="color: #fff200;display: inline;">MySQL DB, MVC 패턴</span> 사용</p>
+              <p><span style="color: #fff200;display: inline;">인공지능</span>에 대한 기본 원리 이해</p>
+              <p>Ubuntu를 설치한 VMware로 리눅스 관련 학습 + Ubuntu 환경에서 <span style="color: #fff200;display: inline;">"도커, 리눅스"</span> 명령어 사용 및 윈도우 도커 데스크탑 체험</p>
+              <p><span style="color: #fff200;display: inline;">AWS</span>로 EC2를 활용한 웹 서비스 <span style="color: #fff200;display: inline;">환경 구축 및 배포</span></p>
+            </section>
+    
+    
+            <!--
+              - service
+            -->
+    
+            <section class="service">
+    
+              <h3 class="h3 service-title">What i'm doing</h3>
+    
+              <ul class="service-list">
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-design.svg
+                    " alt="design icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web design</h4>
+    
+                    <p class="service-item-text">
+                      HTML 파일, JSP 파일에 css를 적용하여 웹 페이지를 디자인합니다.
+                    </p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web development</h4>
+    
+                    <p class="service-item-text">
+                      언어는 자바</p>
+                    <p class="service-item-text">Spring Boot 프로젝트 생성</p>
+                    <p class="service-item-text"> - MVC 패턴으로 Mybatis, MySQL DB를 활용합니다.</p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Mobile apps</h4>
+    
+                    <p class="service-item-text">
+                      안드로이드 스튜디오에서 작업 - 안드로이드 앱 개발.
+                    </p>
+                    <p class="service-item-text">구글에서 권장하는 코틀린으로 결과물을 제작하고 있습니다.</p>
+                  </div>
+    
+                </li>
+    
+                <li class="service-item">
+    
+                  <div class="service-icon-box">
+                    <img src="./assets/images/cloud-icon.jpeg" alt="camera icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Cloud</h4>
+    
+                    <p class="service-item-text">
+                      교육 과정에서 AWS를 배우고, 멘토링을 통해 현재 참여 중인 프로젝트에서 Azure를 사용중입니다.
+                    </p>
+                  </div>
+    
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+          </article>
+    
+    
+          <!--
+            - #PORTFOLIO
+          -->
+    
+          <article class="portfoliof" data-page="portfolioo">
+    
+            <header>
+              <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+    
+            <section class="projects">
+    
+
+              <ul class="project-list">
+    
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Finance</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Orizon</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Fundo</h3>
+    
+                    <p class="project-category">Web design</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="applications">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Brawlhalla</h3>
+    
+                    <p class="project-category">Applications</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">DSM.</h3>
+    
+                    <p class="project-category">Web design</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web design">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">MetaSpark</h3>
+    
+                    <p class="project-category">Web design</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Summary</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="applications">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Task Manager</h3>
+    
+                    <p class="project-category">Applications</p>
+    
+                  </a>
+                </li>
+    
+                <li class="project-item  active" data-filter-item data-category="web development">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+    
+                      <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Arrival</h3>
+    
+                    <p class="project-category">Web development</p>
+    
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </section>
+    
+          </article>
+    
+        </div>
+    
+      </main>
+</body>
+</html>
